@@ -1,0 +1,44 @@
+.mainSectionBlue{
+    margin-top: -20px;
+    background: linear-gradient(#E4F2FE, #FFEEFE);
+}
+.titles{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+.__products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+._products-item{
+    width: 350px;
+    box-shadow: 4px 4px 10px lightgray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+
+}
+._products-item img {
+    width: 100%;
+}
+._products-item h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+._products-item a {
+    text-decoration:none;
+    color: inherit;
+    padding: 10px 30px;
+    margin: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to left,#FFEEFE, #E4F2FE);
+    transition: 1s transform;
+    display: block;
+}
+._products-item a:hover{
+    transform: translateY(-10px) scale(1.05);
+}

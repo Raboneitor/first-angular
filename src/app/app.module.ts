@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { FirstComponent } from './first-test.component';
 import { CoverComponent } from './cover/cover.component';
 import { NavComponent } from './nav/nav.component';
+import { Products } from './product/product.component';
 
 @NgModule({
   declarations: [
-    AppComponent, FirstComponent, NavComponent, CoverComponent
+    AppComponent, FirstComponent, NavComponent, CoverComponent, Products
   ],
   imports: [
     BrowserModule, FormsModule
