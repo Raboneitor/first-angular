@@ -1,0 +1,33 @@
+.__coverImage{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(#FFEEFE, #E4F2FE);
+    margin-top: -50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.__coverImage-text{
+    font-size: 2rem;
+    margin: 5px 100px;
+    font-family: 'Montserrat',sans-serif;
+    width: 30%;
+}
+.__coverImage-text-big{
+    font-size: 3.5rem;
+    margin-top: -45px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.__coverImage-text-little{
+    font-size: 1rem;
+}
+.__coverImage-text a{
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+    padding: 5px 35px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px gray;
+}
