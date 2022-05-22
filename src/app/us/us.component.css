@@ -1,0 +1,26 @@
+.__profiles-person{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.__profiles-person img{
+    width: 250px;
+}
+.__profiles-person-text{
+    font-size: 1rem;
+    margin: 30px 100px;
+    width: 500px;
+}
+.__profiles-person-text p:first-child{
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.__profiles-person-text p:nth-child(2){
+    font-size: 2rem;
+    margin-top: -50px;
+}
+.__profiles-person-text:nth-child(1){
+    text-align: right;
+}

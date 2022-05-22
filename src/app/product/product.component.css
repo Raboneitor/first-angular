@@ -1,16 +1,7 @@
-.mainSectionBlue{
-    margin-top: -20px;
-    background: linear-gradient(#E4F2FE, #FFEEFE);
-}
-.titles{
-    text-align: center;
-    font-family: 'Montserrat',sans-serif;
-}
 .__products{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-family: 'Montserrat',sans-serif;
     text-align: center;
 }
 ._products-item{

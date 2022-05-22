@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.mainSectionBlue{
+    margin-top: -20px;
+    background: linear-gradient(#E4F2FE, #FFEEFE);
+}
+.mainSectionPink{
+    margin-top: -20px;
+    background: linear-gradient(#FFEEFE, #E4F2FE );
+}
+.titles{
+    padding-top: 70px;
+    text-align: center;
+}
+.titles h3{
+    margin-top: -20px;
+}

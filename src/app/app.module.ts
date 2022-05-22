@@ -6,10 +6,11 @@ import { FirstComponent } from './first-test.component';
 import { CoverComponent } from './cover/cover.component';
 import { NavComponent } from './nav/nav.component';
 import { Products } from './product/product.component';
+import { Us } from './us/us.component';
 
 @NgModule({
   declarations: [
-    AppComponent, FirstComponent, NavComponent, CoverComponent, Products
+    AppComponent, FirstComponent, NavComponent, CoverComponent, Products, Us
   ],
   imports: [
     BrowserModule, FormsModule
